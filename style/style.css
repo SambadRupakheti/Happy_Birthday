@@ -124,10 +124,10 @@ body {
 
 .six .hat {
   position: absolute;
-  width: 80px;
-  top: -35px;
-  left: 41.5%;
-  /* transform: scale(0.1); */
+  width: 70px;  /* Slightly smaller */
+  top: -50px;  /* Moves the hat higher */
+  left: 50%;
+  transform: translateX(-50%);
 }
 
 .baloons img {
@@ -217,9 +217,11 @@ body {
 }
 
 .wish h5 {
-  font-weight: lighter;
+  font-weight: bold;
   font-size: 2rem;
-  margin: 10px 0 0;
+  margin: 15px 0 0;
+  color: #ff4081;  /* Soft pink for elegance */
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
 }
 
 .nine p {
