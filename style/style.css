@@ -211,12 +211,9 @@ body {
 }
 
 .wish-hbd {
-  font-size: 6em; /* Increased from 3em to 4.5em */
-  font-weight: bold;
-  margin: 10px 0;
+  font-size: 3em;
+  margin: 0;
   text-transform: uppercase;
-  color: #ff4081; /* Soft pink for elegance */
-  text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.3);
 }
 
 .wish h5 {
