@@ -212,10 +212,7 @@ body {
 
 .wish-hbd {
   font-size: 3em;
-  word-spacing: 15px;  /* Ensures clear space between words */
-  letter-spacing: 3px; /* Adds slight spacing between letters */
   text-transform: uppercase;
-  display: inline-block;
 }
 
 .wish h5 {
