@@ -277,11 +277,16 @@ const animationTimeline = () => {
       },
       0.3
     )
-    .to(".six", 0.5, {
-      opacity: 0,
-      y: 30,
-      zIndex: "-1"
-    })
+    .to(".six", 5, { 
+    opacity: 1, 
+    y: 0, 
+    zIndex: "1" 
+    }, "+=5")  // The message stays visible for 5 extra seconds
+    .to(".six", 3, { 
+      opacity: 0, 
+      y: 30, 
+      zIndex: "-1" 
+  }, "+=15") // Now disappears after 15 seconds
     .staggerFrom(".nine p", 1, ideaTextTrans, 1.2)
     .to(
       ".last-smile",
